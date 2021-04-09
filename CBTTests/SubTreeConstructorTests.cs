@@ -15,7 +15,6 @@ namespace CBTTests
         [InlineData(new object[] { new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 }, 3 })]
         [InlineData(new object[] { new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 }, 4 })]
         [InlineData(new object[] { new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 }, 5 })]
-
         public void SubTreeConstructorTest(int[] data, int subTreeHeadVal)
         {
             var originalTree = new CBT<int>();
